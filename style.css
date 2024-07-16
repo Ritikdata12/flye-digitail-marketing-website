@@ -1,0 +1,449 @@
+.container {
+    margin-top: 50px;
+}
+.hero-text {
+    text-align: left;
+    margin-top: 20px;
+}
+.hero-text h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Cormorant SC', serif;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.hero-text p {
+    font-size: 1.2em;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.hero-text .btn {
+    margin-top: 20px;
+    background-color: #ff4a4a;
+    border: none;
+}
+.hero-text .award {
+    margin-top: 20%;
+    text-align: left;
+    font-family: 'Cormorant SC', serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 40px;
+}
+.hero-text .badge {
+    background-color: #ff4a4a;
+    color: #fff;
+}
+.img-responsive {
+    height: 600px;
+}
+@media screen and (max-width: 1000px) {
+    .hero-text .award {
+        margin-top: 10px;
+    }
+}
+/* Modal Styles */
+.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - 1rem);
+}
+.modal-content {
+    border-radius: 8px;
+    padding: 20px;
+    border: none;
+}
+.modal-header {
+    border-bottom: none;
+    text-align: center;
+}
+.modal-header .close {
+    margin-top: -10px;
+}
+.modal-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.form-control {
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    height: 50px;
+    border-radius: 0;
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: red;
+}
+.form-check-label {
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+.btn-submit {
+    background-color: #ff4a4a;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.modal-footer {
+    border-top: none;
+    padding-top: 10px;
+    text-align: center;
+}
+.form-group.form-check {
+    display: flex;
+    align-items: center;
+}
+.form-row .form-group {
+    padding-left: 0;
+    padding-right: 15px;
+}
+/* second section */
+.service-section {
+    margin-top: 50px;
+}
+
+.service-section h4 {
+    color: #ff4a4a;
+    font-size: 1.2em;
+}
+
+.service-section h2 {
+    font-size: 35px;
+    width: 350px;
+       font-weight: bold;
+    text-align: left;
+font-family: normal normal bold 45px/65px Cormorant SC;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+}
+
+.service-section p {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+.service-item {
+    text-align: center;
+    background-color: #f8f9fa;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.service-item img {
+    width: 550px;
+    height: 400px;
+}
+
+.service-item .hover-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ff4a4a;
+    color: white;
+    text-align: center;
+}
+
+.service-item:hover .hover-content {
+    display: block;
+}
+
+.hover-content h3 {
+    margin-top: 20%;
+    font-size: 2em;
+}
+
+.hover-content p {
+    margin-top: 20px;
+}
+
+.hover-content .btn {
+    margin-top: 20px;
+    background-color: white;
+    color: #ff4a4a;
+    border: none;
+}
+
+.design-content {
+    background-color: #ff4a4a;
+    height: 100%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-content h3 {
+    margin-top: 8%;
+    color: white;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.design-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.design-content .btn {
+    margin-top: 20px;
+    background-color: white;
+    color: #ff4a4a;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.design-content .btn:hover {
+    background-color: #ff3147;
+    color: white;
+}
+
+/* Custom styles for carousel indicators */
+.carousel-indicators-wrapper {
+    position: relative;
+
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.carousel-indicators {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ff4a4a;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.carousel-indicators .active {
+    background-color: #ff3147;
+}
+
+
+/* // third section */
+.why-choose-us {
+    text-align: center;
+    padding: 50px 0;
+}
+.why-choose-us h2 {
+    color: red;
+    font-size: 24px;
+}
+.why-choose-us h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.feature-box {
+    text-align: center;
+    padding: 20px;
+}
+.feature-box img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.feature-box h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.feature-box p {
+    font-size: 14px;
+    color: gray;
+}
+
+
+/* //forth section */
+
+.our-project {
+    text-align: center;
+    padding: 50px 0;
+}
+.our-project h2 {
+    color: red;
+    font-size: 24px;
+}
+.our-project h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.content-box {
+    padding: 20px;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    /* margin-top: 40px; */
+}
+.content-box.active {
+    background-color: red;
+    color: white;
+}
+.content-box.active p{
+    background-color: red;
+    color: white;
+}
+.content-box h4 {
+    font-size: 20px;
+}   
+.content-box p {
+    font-size: 14px;
+    color: black;
+}
+@media screen and (max-width: 600px) {
+    .img-fluid{
+        width: 350px;
+        height: 400px;
+    }
+}
+
+/* company growth section */
+.capital-box {
+    background-color: #FAFAFA;
+    width: 100%;
+  }
+  .company-growth {
+    text-align: center;
+    padding: 50px 0;
+  }
+  .company-growth h2 {
+    color: red;
+    font-size: 24px;
+  }
+  .company-growth h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .growth-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    margin-top: 14px;
+  }
+  .growth-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .growth-card i, .growth-card img {
+    font-size: 40px;
+    color: red;
+    margin-bottom: 10px;
+  }
+  .growth-card h4 {
+    font-size: 50px;
+    margin: 20px 0;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  .growth-card p {
+    font-size: 20px;
+    color: gray;
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .company-growth .row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
+
+
+/* // feedback section */
+.feedback-section {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .feedback-section h2 {
+    margin-bottom: 20px;
+    font-family: 'Cormorant SC', serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  .feedback-section .title {
+    font-family: 'Cormorant SC', serif;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 65px;
+    letter-spacing: 0;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    /* border: 2px solid black; */
+    padding: 10px;
+    display: inline-block;
+  }
+  .feedback-section .content {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    max-width: 700px;
+    margin: 20px auto;
+  }
+  .feedback-section .client-info {
+    font-weight: bold;
+    color: red;
+  }
+  .feedback-section .client-role {
+    color: gray;
+  }
+
+/* footer section */
+.footer {
+    /* background-image: url('path_to_your_red_background_image'); Replace with your background image path */
+    background-size: cover;
+    background-color: red;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    height: 300px;
+  }
+  .footer .logo {
+    width: 90%;
+    height: 50px;
+  }
